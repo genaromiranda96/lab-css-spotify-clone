@@ -6,3 +6,197 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat';
+  }
+
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+
+
+.logo-spotify {
+    height: 45px;
+    padding: 15px 30px ;
+}
+
+.flex{
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.navigation-bar {
+    justify-content: space-between;
+    list-style: none;
+    width: 420px;
+    padding-right: 55px;    
+}
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+#heading-1 {
+    height: 700px;
+    background-image: url("../images/landing.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+#h1 {
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 35px;
+}
+
+#text-spam {
+    font-size: 28px;
+    color: white;
+    line-height: 32px; 
+
+}
+
+#section2 img {
+    width: 100px;
+  }
+  
+  #section2 {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  
+  #section2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+  
+  #section2 .container {
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  #section2 .container h3 {
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #19b26b;
+  }
+  
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+
+.section-h3 {
+  padding-bottom: 70px;
+}
+
+#spotify-text {
+  border-bottom: 4px #19b26b solid;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.text-box {
+  font-size: 18px;
+  line-height: 24px; 
+}
+
+.background-green {
+  height: 650px;
+  background-color: #19b26b;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+
+#container-green{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.logo-spotify2 {
+  height: 100px;
+  padding-right: 120px;
+
+}
+
+.spotify-app {
+  height: 550px;
+}
+
+.green-text-h3 {
+  color: white;
+  font-size: 32px;
+
+}
+
+.green-text-h3 h3 {
+border-bottom: 3px solid white;
+padding-bottom: 20px;
+}
+
+
+.container-green-text {
+  width: 300px;
+  padding: 20px 0px 20px 0px;
+}
+
+
+.container-green-text h4 {
+  color: white;
+  font-size: 22px;
+  padding: 10px 0px 20px 0px; 
+  font-weight: 700;
+}
+
+.container-green-text p {
+  color: white;
+  font-size: 16px;
+  line-height: 26px; 
+}
